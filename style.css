@@ -18,15 +18,6 @@ a {
 a:visited {
 	color: MediumPurple;
 }
-span.op {
-	color: Orange;
-}
-span.vip {
-	color: Lime;
-}
-span.mapmaker {
-	color: Blue;
-}
 span.online {
 	color: Lime;
 }
