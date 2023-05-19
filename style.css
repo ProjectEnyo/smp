@@ -6,7 +6,7 @@ main {
 	max-width: 600px;
 	margin: auto;
 }
-p {
+p, td, li {
 	font-family: sans-serif;
 }
 h1,h2,h3,h4,h5,h6 {
