@@ -24,6 +24,10 @@ span.online {
 span.offline {
 	color: Red;
 }
+.tooltip {
+	text-decoration: underline dotted;
+	cursor: help;
+}
 table,
 td {
 	border: 1px solid DarkGray;
@@ -32,6 +36,9 @@ thead,
 tfoot {
 	background-color: White;
 	color: Black;
+}
+summary {
+	cursor: pointer;
 }
 blockquote {
 	font-style: italic;
@@ -42,4 +49,7 @@ img.banner {
 	margin-right: auto;
 	height: auto;
 	width: 100%;
+}
+section {
+	overflow: auto;
 }
