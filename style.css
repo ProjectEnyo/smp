@@ -53,3 +53,6 @@ img.banner {
 section {
 	overflow: auto;
 }
+ul.recipes {
+	list-style: none;
+}
