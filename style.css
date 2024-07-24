@@ -20,9 +20,11 @@ a:visited {
 }
 span.online {
 	color: Lime;
+	text-shadow: 0 0 20px Lime;
 }
 span.offline {
 	color: Red;
+	text-shadow: 0 0 20px Red;
 }
 .tooltip {
 	text-decoration: underline dotted;
