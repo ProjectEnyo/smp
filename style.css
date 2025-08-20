@@ -119,6 +119,15 @@ summary {
 blockquote {
 	font-style: italic;
 }
+blockquote p::before {
+	content: "\201C";
+}
+blockquote p::after {
+	content: "\201D";
+}
+blockquote + p {
+	text-align: right;
+}
 img.banner {
 	display: block;
 	margin-left: auto;

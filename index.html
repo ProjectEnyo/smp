@@ -53,11 +53,23 @@
 			<section>
 				<h2>Server Information</h2>
 				<p>
-					The Survival server exists to provide classic Minecraft Survival PVP from what you may remember from the earlier days of Minecraft multiplayer.
+					The Survival server is set up to provide classic Minecraft Survival with PVP from the early days of Minecraft multiplayer, together with modern solutions to provide a simple playing experience without the nonsense.
 				</p>
 				<p>
-					You are safe from PVP if you stick to the area surrounding the spawn point, and you may build freely there.
-					Leaving it for the Wilderness means you can get killed by other players.
+					You are safe from PVP if you stick to the <span class="tooltip" title="Area surrounding the spawn point">safe zone</span>, and you may build freely there as griefing is not allowed.
+					Leaving for the wilderness means you can get killed or looted by other players, but to avoid having to hide or build your base underground, you can claim your land.
+					Claiming land means that no unauthorised players can break into your base, but if they manage to find a way in they can kill or loot you.
+				</p>
+				<p>
+					PVP might not be for everyone, in which case you can stick to the safe zone. You will be in a limited area with limited resources and may have to wander into the wilderness at some point.
+				</p>
+				<p>
+					<blockquote>
+						<p>
+							Many people enjoy the potential danger brought on by building in such a hostile environment without ever actually starting a fight, and we welcome anyone who chooses to play this way.
+						</p>
+					</blockquote>
+					<p><cite>~ Nerd.nu Survival, 2010–2014</cite></p>
 				</p>
 			</section>
 			</section>
@@ -67,6 +79,7 @@
 				</p>
 				<ul>
 					<li>Claimable land</li>
+					<li>Lockable chests (safe zone)</li>
 					<li>Combat tagging</li>
 					<li>Limited map size</li>
 					<li>Structures are not generated</li>
@@ -100,11 +113,11 @@
 							<td>Speak locally.</td>
 						</tr>-->
 						<tr>
-							<td><code>/msg &lt;user&gt; &lt;message&gt;</code></td>
+							<td><code>/msg &lt;player&gt; &lt;message&gt;</code></td>
 							<td>Sends a private message to the specified player.</td>
 						</tr>
 						<tr>
-							<td><code>/mail &lt;user&gt; &lt;message&gt;</code></td>
+							<td><code>/mail &lt;player&gt; &lt;message&gt;</code></td>
 							<td>Sends an intra-server mail.</td>
 						</tr>
 					</tbody>
@@ -158,7 +171,7 @@
 							<td>Lists your claims so you can keep track of them.</td>
 						</tr>
 						<tr>
-							<td><code>/trust &lt;user&gt;</code></td>
+							<td><code>/trust &lt;player&gt;</code></td>
 							<td>Trusts someone to your claim.</td>
 						</tr>
 						<tr>
@@ -166,7 +179,7 @@
 							<td>Lets the general public build in the claim while preventing others being able to claim your build.</td>
 						</tr>
 						<tr>
-							<td><code>/untrust &lt;user&gt;/public</code></td>
+							<td><code>/untrust &lt;player&gt;/public</code></td>
 							<td>Untrusts someone to your claim.</td>
 						</tr>
 						<tr>
@@ -175,7 +188,43 @@
 						</tr>
 					</tbody>
 				</table>
+			</section>			<section>
+				<h2>Block locking</h2>
+				<p>
+					With PVP being disabled in the safe zone, you cannot defend against someone looting you.
+					To avoid this you can lock certain blocks, like chests.
+				</p>
 			</section>
+			<section>
+				<h3>Commands</h3>
+				<table>
+					<thead>
+						<tr>
+							<th>Command</th>
+							<th>Description</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><code>/lock</code></td>
+							<td>Locks containers.</td>
+						</tr>
+						<tr>
+							<td><code>/unlock</code></td>
+							<td>Unlocks containers.</td>
+						</tr>
+						<tr>
+							<td><code>/bolt edit (add|remove) &lt;player&gt;</code></td>
+							<td>Add or remove a player.</td>
+						</tr>
+						<tr>
+							<td><code>/bolt transfer &lt;player&gt;</code></td>
+							<td>Transfer a protection to another player.</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+
 			<section>
 				<h2>Vote</h2>
 				<p>
